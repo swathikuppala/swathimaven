@@ -1,0 +1,4 @@
+FROM openjdk:8
+EXPOSE 8081
+ADD target/my_first_image.jar my_first_image.jar
+ENTRYPOINT ["java","-jar","/my_first_image.jar"]

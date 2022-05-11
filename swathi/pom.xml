@@ -33,4 +33,7 @@
 	</dependencies>
 
 	<description>Project for blog post about the use of Spring with Eclipse and Maven.</description>
+	<build>
+	<finalName>my_first_image</finalName>
+	</build>
 </project>
